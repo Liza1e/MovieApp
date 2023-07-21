@@ -65,15 +65,11 @@ const showMovies = (data) => {
 
 const form = document.querySelector('form');
 const search = document.querySelector('.header__search');
-console.log('form ', form)
-console.log('search ', search)
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
   const apiSearchURL = `${API_URL_SEARCH}${search.value}`;
-
-  console.log('apiSearchURL ', apiSearchURL)
 
   if(search.value) {
     fetchSearchData(apiSearchURL);
