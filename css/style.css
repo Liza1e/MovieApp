@@ -22,9 +22,9 @@ body {
 }
 
 .header-content__logo {
-  font-size: 32px;
+  font-size: 45px;
   text-decoration: none;
-  color: #ffffff;
+  color: green;
 }
 
 .header__search {
