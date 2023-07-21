@@ -22,9 +22,9 @@ body {
 }
 
 .header-content__logo {
-  font-size: 32px;
+  font-size: 45px;
   text-decoration: none;
-  color: #ffffff;
+  color: green;
 }
 
 .header__search {
@@ -78,7 +78,7 @@ body {
 }
 
 .movie__title {
-    font-size: 16px;
+    font-size: 18px;
     color: #ffffff;
 }
 
